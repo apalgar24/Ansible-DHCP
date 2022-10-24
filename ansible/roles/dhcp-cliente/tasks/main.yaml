@@ -6,7 +6,7 @@
     group: root
     mode: '0644'
 
-#- name: reboot
-  #reboot:
-  #timeout: 1
-  #ignore_errors: yes
+- name: reboot
+  reboot:
+  timeout: 1
+  ignore_errors: yes

@@ -11,6 +11,9 @@
     owner: root
     group: root
     mode: '0644'
-  #notify: 
-    #- reboot
-    
+ 
+ - name: reboot
+  reboot:
+  timeout: 1
+  ignore_errors: yes
+  
